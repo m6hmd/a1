@@ -9,13 +9,13 @@ print('\033[1;35m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \033[1;31m�
 print('       \033[1;31mT   \033[1;32mP   \033[1;33mA   \033[1;34mR   \033[1;35mK   \033[1;32mN1')
 
 print('\033[1;33m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;36m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬')
-name = input ('\033[1;34mEntre password : \033[1;34m')
-if name == '100' : 
-	print('\033[1;35m Logged Logged in ✅. ')
-	print ('welcome dear 💙. ')
-else :
-   print ('\033[1;31m Wrong password ‼️. ')
-   exit()
+#name = input ('\033[1;34mEntre password : \033[1;34m')
+#if name == '100' : 
+	#print('\033[1;35m Logged Logged in ✅. ')
+	#print ('welcome dear 💙. ')
+#else :
+#   print ('\033[1;31m Wrong password ‼️. ')
+#   exit()
 #-----------------[ IMPORT-MODULE ]-------------------
 import requests,bs4,json,os,sys,random,datetime,time,re,datetime,webbrowser,socket
 import urllib3,rich,base64
